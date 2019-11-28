@@ -14,11 +14,13 @@
 
 ### 安装环境
 
-> cd ./docxTemplate
-> python3 -m venv venv
-> . venv/bin/activate
-> pip install -r requirements.txt
-> python app.py
+```
+cd ./docxTemplate
+python3 -m venv venv
+. venv/bin/activate
+pip install -r requirements.txt
+python app.py
+```
 
 ### 脚本运行环境：
 
