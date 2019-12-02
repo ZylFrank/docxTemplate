@@ -1,3 +1,7 @@
+#!/usr/bin/python
+# -*- coding:utf8 -*-
+import sys
+import json
 import os
 from docxtpl import DocxTemplate, InlineImage
 from docx.shared import Mm
@@ -51,6 +55,9 @@ def generator_doc(params):
     # 清理Barcode图片
     for item in params['barcode_images']:
         clear_barcode_images(item['code'])
+
+# context=json.loads(sys.argv[1])
+# generator_doc(context)
 
 
 generator_doc({
