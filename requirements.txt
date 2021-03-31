@@ -2,7 +2,7 @@ docx
 barcode
 docxtpl==0.6.3
 Jinja2==2.10.3
-lxml==4.4.2
+lxml==4.6.3
 MarkupSafe==1.1.1
 Pillow==6.2.1
 python-barcode==0.10.0
