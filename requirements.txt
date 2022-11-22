@@ -4,7 +4,7 @@ docxtpl==0.6.3
 Jinja2==2.10.3
 lxml==4.4.2
 MarkupSafe==1.1.1
-Pillow==6.2.1
+Pillow==9.3.0
 python-barcode==0.10.0
 python-docx==0.8.7
 six==1.13.0
